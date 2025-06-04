@@ -23,4 +23,7 @@ git pull(깃허브에 올린 PR 파일 끌고오기)
 =======
 
 PR : Pull Request
+ㄴ git push(깃허브 등 원격 저장소로 보내기)
+ㄴ git pull(깃허브 등 원격 저장소 파일 끌고오기)
+
 >>>>>>> 1ba87651b7aae555893422e9683d5dee874aeece
