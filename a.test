@@ -18,3 +18,4 @@ git branch(현재 모든 브랜치를 볼 수 있는 명령어)
 >>>>>>> test
 git merge 브랜치파일명(파일끼리 통합 명령어)
 git branch -d 브랜치파일명(브랜치 삭제)
+git pull(깃허브에 올린 PR 파일 끌고오기)
