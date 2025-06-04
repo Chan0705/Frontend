@@ -9,9 +9,9 @@ git commit -m 파일명(등록완료 작업)
 git status (상태 확인)
 git log --all --oneline(커밋 기록 확인명령어)
 ㄴgit diff 커밋ID(커밋 최초본과 이후 수정본의 차이점 확인 명령어)
-<<<<<<< HEAD
 ㄴgit difftool 커밋ID(위 명령엉보다 대조확인 이용이함)
 ㄴgit graph로 확인 훨신 편함
+<<<<<<< HEAD
 git branch(현재 모든 브랜치를 볼 수 있는 명령어)
 ㄴ git branch 파일명(브랜치 신규 생성)
 ㄴ git checkout 브랜치파일명(생성된 브랜치 파일로 이동)
