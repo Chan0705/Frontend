@@ -9,4 +9,5 @@ git commit -m 파일명(등록완료 작업)
 git status (상태 확인)
 git log --all --oneline(커밋 기록 확인명령어)
 ㄴgit diff 커밋ID(커밋 최초본과 이후 수정본의 차이점 확인 명령어)
-ㄴgit difftool 커밋ID(위 명령엉보다 대조확인이용이함)
+ㄴgit difftool 커밋ID(위 명령엉보다 대조확인 이용이함)
+ㄴgit graph로 확인 훨신 편함
