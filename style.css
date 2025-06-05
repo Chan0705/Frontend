@@ -1,5 +1,36 @@
-div {background-color: green;}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: lightblue;
+    height: 100px;
+    width: 100%;
+}
 
-.selector {background-color: yellow}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
-#pareents {background-color: blue;}
+.logoimg{
+    height: 50px;
+    width: 50px;
+}
+
+.title {
+    font-size: 24px;
+    color: darkblue;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.card{
+    background-color: white;
+    padding: 10px;
+}
