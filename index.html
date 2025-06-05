@@ -36,5 +36,46 @@
         <a href="https://www.naver.com"target="_blank">새 창에서 열림</a>
     </div>
     <img src="./하늘사진.jpg" alt="하늘사진">
-</body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>이름</th>
+                <th>나이</th>
+                <th>직업</th>
+            </tr>
+        </thead>
+        <tbody>
+           <tr> 
+            <td>장채린</td>
+            <td>30</td>
+            <td>프론트엔드 개발자</td>
+        </tr>
+        <tr>
+            <td>강동구</td>
+            <td>28</td>
+            <td>백엔드 개발자</td>
+        </tr>
+        </tbody>
+    </table>
+    </body>
+
+    <form action="/api/url" method="post">
+        <label for="name">이름</label>
+        <input type="text" id="name" name="name"/>
+        
+        <label for="password">패스워드</label>
+        <input type="password" id="password" name="password"/>
+
+        <label for="email">선택</label>
+        <select name="job" id="job">
+            <option value="frontend">프론트엔드 개발자</option>
+            <option value="backend">백엔드 개발자</option>
+        </select>
+
+        <label for="note">비고</label>
+        <textarea name="note" id="note" rows="4" cols="50"></textarea>
+
+        <button type="submit">제출</button>
+    </form>
 </html>
