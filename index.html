@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <div>
         <h1>제일 중요한 제목</h1>
@@ -33,7 +35,7 @@
     </div>
     <div>
         <a href="https://www.naver.com">네이버</a>
-        <a href="https://www.naver.com"target="_blank">새 창에서 열림</a>
+        <a href="https://www.naver.com" target="_blank">새 창에서 열림</a>
     </div>
     <img src="./하늘사진.jpg" alt="하늘사진">
 
@@ -46,36 +48,41 @@
             </tr>
         </thead>
         <tbody>
-           <tr> 
-            <td>장채린</td>
-            <td>30</td>
-            <td>프론트엔드 개발자</td>
-        </tr>
-        <tr>
-            <td>강동구</td>
-            <td>28</td>
-            <td>백엔드 개발자</td>
-        </tr>
+            <tr>
+                <td>장채린</td>
+                <td>30</td>
+                <td>프론트엔드 개발자</td>
+            </tr>
+            <tr>
+                <td>강동구</td>
+                <td>28</td>
+                <td>백엔드 개발자</td>
+            </tr>
         </tbody>
     </table>
-    </body>
+</body>
 
-    <form action="/api/url" method="post">
-        <label for="name">이름</label>
-        <input type="text" id="name" name="name"/>
-        
-        <label for="password">패스워드</label>
-        <input type="password" id="password" name="password"/>
+<form action="/api/url" method="post">
+    <label for="name">이름</label>
+    <input type="text" id="name" name="name" />
 
-        <label for="email">선택</label>
-        <select name="job" id="job">
-            <option value="frontend">프론트엔드 개발자</option>
-            <option value="backend">백엔드 개발자</option>
-        </select>
+    <label for="password">패스워드</label>
+    <input type="password" id="password" name="password" />
 
-        <label for="note">비고</label>
-        <textarea name="note" id="note" rows="4" cols="50"></textarea>
+    <label for="email">선택</label>
+    <select name="job" id="job">
+        <option value="select">--선택--</option>
+        <option value="frontend">프론트엔드 개발자</option>
+        <option value="backend">백엔드 개발자</option>
+        <option value="UI/UX">UI/UX 디자이너</option>
+    </select>
 
-        <button type="submit">제출</button>
-    </form>
+    <label for="note">비고</label>
+    <textarea name="note" id="note" rows="4" cols="50"></textarea>
+
+    <button type="submit">제출</button>
+    <button type="reset">초기화</button>
+    <button type="button">그러나 아무일도 일어나지 않았다</button>
+</form>
+
 </html>
