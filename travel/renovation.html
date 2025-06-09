@@ -11,33 +11,41 @@
 <body>
     <header>
         <div class="container">
-            <h1>여행을 떠나요</h1>
+            <h1>여행가고싶다</h1>
             <nav>
                 <ul class="nav">
-                    <li><a href="index.html">홈</a></li>
-                    <li><a href="product.html">여행 상품</a></li>
-                    <li><a href="reservation.html">예약/문의</a></li>
+                    <li>
+                        <a href="./inedx.html">홈</a>
+                    </li>
+                    <li>
+                        <a href="./product.html" target="_blank">여행상품</a>
+                    </li>
+                    <li>
+                        <a href="./renovation.html" target="_blank">예약 및 문의</a>
+                    </li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <h1 class="container">여행 예약 요청</h1>
+        <h1 class="container">예약 신청</h1>
 
         <form class="reservation-form">
             <div class="form-group">
                 <label for="name">이름</label>
-                <input type="text" id="name" name="name" placeholder="홍길동">
+                <input type="text" id="name" name="name" placeholder="이름">
             </div>
 
             <div class="form-group">
                 <label for="phone">연락처</label>
-                <input type="text" id="phone" name="phone" placeholder="010-1234-5678">
+                <input type="text" id="phone" name="phone" placeholder="-없이 입력해주세요.">
             </div>
 
             <div class="form-group">
-                <label for="date">여행 시작 날짜</label>
+                <label for="date">출발</label>
+                <input type="date" id="date" name="date">
+                <label for="date">도착</label>
                 <input type="date" id="date" name="date">
             </div>
 
